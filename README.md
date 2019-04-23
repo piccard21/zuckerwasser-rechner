@@ -1,4 +1,4 @@
-# zuckerwsser-rechner
+# zuckerwasser-rechner
 
 ## Project setup
 ```
