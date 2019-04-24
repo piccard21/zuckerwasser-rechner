@@ -11,9 +11,9 @@ export default {
     ratioDesc() {
       const desc = {
         "1-1":
-          "1:1 Zuckerwasser regt die Bienen zum Waben ausbauen an, eignet sich auch zur Reizfütterung und zur Überbrückung trachtarmer Perioden. Allerdings kann der Zucker im Honigraum eingelagert werden.",
+          "1:1 Zuckerwasser fördert den Bautrieb im und eignet sich zur Überbrückung trachtarmer Perioden.",
         "3-2":
-          "3:2 Zuckerwasser eignet sich hervorragend zur Wintereinfütterung der Bienen."
+          "3:2 Zuckerwasser eignet sich hervorragend für Ableger sowie zur Wintereinfütterung der Bienen."
       };
       return desc[this.ratio];
     }

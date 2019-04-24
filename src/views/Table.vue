@@ -1,7 +1,7 @@
 <template>
   <div class="table-overview">
     <b-form-group
-      label="Verhätnis"
+      label="Verhältnis"
       :description="ratioDesc"
       label-for="select-ratio"
     >

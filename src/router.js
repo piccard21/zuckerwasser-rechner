@@ -20,7 +20,9 @@ export default new Router({
           path: "calculator",
           name: "calculator",
           component: () =>
-            import(/* webpackChunkName: "calculator" */ "./views/Form.vue")
+            import(
+              /* webpackChunkName: "calculator" */ "./views/Calculator.vue"
+            )
         },
         {
           path: "table",
