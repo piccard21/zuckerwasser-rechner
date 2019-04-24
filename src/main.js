@@ -12,23 +12,6 @@ import App from "./App.vue";
 // Vue.use(BootstrapVue);
 
 // production
-Vue.component("b-card", BCard);
-Vue.component("b-form-group", BFormGroup);
-Vue.component("b-form-select", BFormSelect);
-Vue.component("b-table", BTable);
-Vue.component("b-jumbotron", BJumbotron);
-Vue.component("b-form-input", BFormInput);
-Vue.component("b-link", BLink);
-Vue.component("b-tabs", BTabs);
-Vue.component("b-nav-item", BNavItem);
-Vue.component("b-alert", BAlert);
-Vue.component("b-button", BButton);
-Vue.component("b-collapse", BCollapse);
-Vue.component("b-row", BRow);
-Vue.component("b-col", BCol);
-Vue.component("b-container", BContainer);
-
-Vue.directive("b-toggle", BToggleDirective);
 
 import BCard from "bootstrap-vue/es/components/card/card";
 import BFormGroup from "bootstrap-vue/es/components/form-group/form-group";
@@ -46,6 +29,24 @@ import BRow from "bootstrap-vue/es/components/layout/row";
 import BCol from "bootstrap-vue/es/components/layout/col";
 import BContainer from "bootstrap-vue/es/components/layout/container";
 import BToggleDirective from "bootstrap-vue/es/directives/toggle/toggle";
+
+Vue.component("b-card", BCard);
+Vue.component("b-form-group", BFormGroup);
+Vue.component("b-form-select", BFormSelect);
+Vue.component("b-table", BTable);
+Vue.component("b-jumbotron", BJumbotron);
+Vue.component("b-form-input", BFormInput);
+Vue.component("b-link", BLink);
+Vue.component("b-tabs", BTabs);
+Vue.component("b-nav-item", BNavItem);
+Vue.component("b-alert", BAlert);
+Vue.component("b-button", BButton);
+Vue.component("b-collapse", BCollapse);
+Vue.component("b-row", BRow);
+Vue.component("b-col", BCol);
+Vue.component("b-container", BContainer);
+
+Vue.directive("b-toggle", BToggleDirective);
 
 Vue.config.productionTip = false;
 
