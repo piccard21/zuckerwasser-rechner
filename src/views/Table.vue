@@ -30,17 +30,22 @@
           <th colspan="3">&nbsp;</th>
           <th colspan="1">&nbsp;</th>
           <th colspan="1">
-            ca. 10-20%
+            <b-link href="#hint">20%</b-link>
+          </th>
+        </tr>
+        <tr>
+          <th v-for="(unit, i) in tableUnits" :key="i" class="text-secondary">
+            <span>{{ unit }}</span>
           </th>
         </tr>
       </template>
 
       <!-- custom headers -->
       <template slot="HEAD_foodTheoretical">
-        theoretisch eingedickt (kg)
+        theoretisch eingedickt
       </template>
       <template slot="HEAD_foodInFact">
-        tatsächlich eingelagert (kg)
+        tatsächlich eingelagert
       </template>
     </b-table>
   </div>
@@ -74,6 +79,9 @@ export default {
     },
     tableRatio() {
       return this.$store.getters.tableRatio;
+    },
+    tableUnits() {
+      return this.$store.getters.tableUnits;
     }
   }
 };

@@ -52,6 +52,9 @@ export default new Vuex.Store({
     },
     tableRatio(state) {
       return tableData[state.ratio].text;
+    },
+    tableUnits() {
+      return tableData.units;
     }
   },
   mutations: {

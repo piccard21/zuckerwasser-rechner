@@ -1,15 +1,15 @@
 export default {
   fields: {
     sugar: {
-      label: "Zucker (kg)",
+      label: "Zucker",
       sortable: true
     },
     water: {
-      label: "Wasser (Liter)",
+      label: "Wasser",
       sortable: true
     },
     liquid: {
-      label: "Lösung (Liter)",
+      label: "Lösung",
       sortable: true
     },
     foodTheoretical: {
@@ -19,6 +19,13 @@ export default {
       sortable: true
     }
   },
+  units: [
+    "Kilo",
+    "Liter",
+    "Liter",
+    "Kilo",
+    "Kilo"
+  ],
   "1-1": {
     text: "1:1",
     items: [

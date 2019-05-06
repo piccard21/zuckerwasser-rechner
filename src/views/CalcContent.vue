@@ -20,7 +20,7 @@
       <router-view />
 
       <!-- hints -->
-      <b-alert show class="mt-4">
+      <b-alert id="hint" show class="mt-4">
         Je nach Steigerung der Aktivität des Bienenvolkes und vermehrten Anlegen
         von Brut ist mit einer Minderung des eingedickten Futters von 10-20% zu
         rechnen.
