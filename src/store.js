@@ -13,7 +13,7 @@ const RATIO_FACTOR = {
 
 const FOOD_FACTOR = 1.2;
 const SUGAR_FACTOR_LITER_KILO = 0.6;
-const FOOD_LOST_PERCENT = 20;
+const FOOD_LOST_PERCENT = 15;
 
 const getDefaultState = () => {
   return {
@@ -122,6 +122,8 @@ export default new Vuex.Store({
       state.overallFoodInFact = value;
 
       state.overallFoodTheoretical = (5 / 4) * state.overallFoodInFact;
+      state.overallFoodTheoretical =
+        (100 * state.overallFoodInFact) / (100 - FOOD_LOST_PERCENT);
 
       state.sugarKilo = state.overallFoodTheoretical / FOOD_FACTOR;
       state.sugarLiter = state.sugarKilo * SUGAR_FACTOR_LITER_KILO;

@@ -30,7 +30,7 @@
           <th colspan="3">&nbsp;</th>
           <th colspan="1">&nbsp;</th>
           <th colspan="1">
-            <b-link href="#hint">20%</b-link>
+            <b-link href="#hint">-20%	&#0185;</b-link>
           </th>
         </tr>
         <tr>

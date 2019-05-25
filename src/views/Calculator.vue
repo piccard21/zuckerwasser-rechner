@@ -87,8 +87,11 @@
         <b-form-group
           label="Tatsächlich eingelagertes Futter"
           label-for="all-food-inFact"
-          description="Kilo"
         >
+          <template slot="description">
+            Kilo <b-link href="#hint">-15% <em>&#0185; </em></b-link>
+          </template>
+
           <b-form-input
             id="all-food-inFact"
             autocomplete="off"

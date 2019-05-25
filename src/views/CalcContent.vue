@@ -21,9 +21,9 @@
 
       <!-- hints -->
       <b-alert id="hint" show class="mt-4">
-        Je nach Steigerung der Aktivität des Bienenvolkes und vermehrten Anlegen
-        von Brut ist mit einer Minderung des eingedickten Futters von 10-20% zu
-        rechnen.
+        &#0185; Je nach Steigerung der Aktivität des Bienenvolkes und vermehrten
+        Anlegen von Brut ist mit einer Minderung des eingedickten Futters von
+        10-20% zu rechnen.
       </b-alert>
 
       <div class="mb-3">
