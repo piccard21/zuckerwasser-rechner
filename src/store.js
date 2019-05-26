@@ -121,7 +121,6 @@ export default new Vuex.Store({
     [actionTypes.SET_OVERALL_FOOD_INFACT]({ state }, { value }) {
       state.overallFoodInFact = value;
 
-      state.overallFoodTheoretical = (5 / 4) * state.overallFoodInFact;
       state.overallFoodTheoretical =
         (100 * state.overallFoodInFact) / (100 - FOOD_LOST_PERCENT);
 
